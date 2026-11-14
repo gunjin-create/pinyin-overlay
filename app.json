@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "Pinyin Overlay",
@@ -11,8 +12,10 @@
         "android.permission.SYSTEM_ALERT_WINDOW"
       ]
     },
-    "plugins": [
-      "expo-dev-client"
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "ТВОЙ_PROJECT_ID"
+      }
+    }
   }
 }
